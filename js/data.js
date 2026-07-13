@@ -3,24 +3,24 @@
    ========================================================================== */
 
 // 부위 분류: 상체 / 하체 -> 세부 부위
-const BODY_PARTS = {
+export const BODY_PARTS = {
   "상체": ["목", "어깨", "팔", "등", "허리"],
   "하체": ["엉덩이", "허벅지", "무릎", "종아리", "발목"],
 };
 
 // 관리자 비밀번호 (요구사항)
-const ADMIN_PASSWORD = "007181";
+export const ADMIN_PASSWORD = "007181";
 
 // 음성 카운트 기본 설정 (관리자 페이지에서 수정 가능)
 //  - intervalSec: 몇 초에 한 번 셀지 (기본 2초)
 //  - reps: 총 몇 회 셀지 (기본 12회)
-const DEFAULT_COUNT_SETTINGS = { intervalSec: 2, reps: 12 };
+export const DEFAULT_COUNT_SETTINGS = { intervalSec: 2, reps: 12 };
 
 // 기본 데이터 버전 — 이 값을 올리면 다음 실행 때 기본 데이터로 재설정됩니다.
 // (기본 영상 제거 반영: v2)
 // ("걷기" 해시태그 추가 반영: v3)
 // (난이도(difficulty) 필드 추가 반영: v4)
-const SEED_VERSION = 4;
+export const SEED_VERSION = 4;
 
 /*
   기본 운동 데이터.
@@ -28,7 +28,7 @@ const SEED_VERSION = 4;
   - difficulty: 운동 난이도. 1.0(매우 쉬움) ~ 5.0(매우 어려움), 0.5 단위. 관리자 페이지에서 수정 가능.
   - 아래 링크는 예시이며 관리자 페이지에서 실제 영상으로 교체하세요.
 */
-const DEFAULT_EXERCISES = [
+export const DEFAULT_EXERCISES = [
   {
     id: "ex-1",
     title: "앞정강근 강화 운동",
