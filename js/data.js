@@ -35,7 +35,7 @@ const DEFAULT_EXERCISES = [
     bodyPart: "하체",
     subPart: "발목",
     youtubeUrl: "https://youtu.be/iMgZon0N4kM",
-    difficulty: 1.5,
+    difficulty: 3,
     description:
       "의자 앉아서 시작하세요.\n\n1. 허리를 곧게 펴고 바르게 앉습니다.\n2. 앉은 상태에서 한쪽 발을 운동할 다리의 발에 올립니다.\n3. 발꿈치가 바닥에 닿은 상태에서 발등 방향으로 발을 굽혀줍니다.\n\n양쪽을 다 진행해주세요.\n1세트 12회를 추천합니다.",
     hashtags: ["걷기", "균형", "다리근력", "낙상예방"],
@@ -57,7 +57,7 @@ const DEFAULT_EXERCISES = [
     bodyPart: "하체",
     subPart: "허벅지",
     youtubeUrl: "https://youtu.be/WHFsCmfqptw",
-    difficulty: 2,
+    difficulty: 3,
     description:
       "의자에 앉아서 허리를 바로 세웁니다.\n\n1. 운동하고자 하는 쪽 다리를 폅니다.\n2. 발이 바닥에 소리나지 않게 닿도록 천천히 내려 놓습니다.\n\n양쪽을 다 진행해주세요.\n한세트 12회를 추천합니다.",
     hashtags: ["걷기", "허벅지", "보행"],
@@ -68,7 +68,7 @@ const DEFAULT_EXERCISES = [
     bodyPart: "하체",
     subPart: "무릎",
     youtubeUrl: "https://youtu.be/WHFsCmfqptw",
-    difficulty: 3.5,
+    difficulty: 3,
     description:
       "벽을 짚고 운동하고자 하는 다리를 한발짝 뒤로 둡니다.\n\n1. 무게중심을 운동하고자 하는 다리에 둔 상태로 천천히 내려갑니다.\n2. 운동하고자 하는 다리를 다시 펴줍니다.\n3. 내려갈 때에는 속도를 조절하는 것에 신경쓰며 진행합니다.\n\n양쪽을 다 진행해주세요.\n한세트 12회를 추천합니다.",
     hashtags: ["걷기", "무릎", "관절", "다리근력", "허벅지", "보행"],
